@@ -102,7 +102,6 @@ class ViewController: UIViewController {
     }
     
     func updateCircleSize(){
-        print(circleView!.layer.position.x, circleView!.layer.position.y)
         let newView = UIView(frame: CGRect(
             x: circleView!.frame.minX,
             y: circleView!.frame.minY,
